@@ -1,0 +1,28 @@
+
+
+1.  ~$ mkdir linuxTask
+=====================================
+
+2.  ~$ cd linuxTask/
+     $ touch test testFile fileForTest testto Test-Testovich.bio
+     $ rm *test*
+=====================================   
+
+3.   $ ln -s ./../../../bin/pwd linkPwd
+     $ ls linkPwd
+=====================================  
+
+4.   $ mkdir important
+     $ touch 1.txt 12.txt 123.txt 1234.txt
+     $ mv ???.txt important/
+===================================== 
+
+5.   $ env | grep LC > text.txt
+===================================== 
+
+6.   $ locate code >> text.txt
+===================================== 
+
+7.   $ touch startStream
+     $ mpv udp://224.0.0.1:9999 > startStream
+     $ chmod a=x startStream
